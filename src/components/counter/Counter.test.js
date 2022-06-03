@@ -1,7 +1,7 @@
 import {screen, render} from "@testing-library/react";
 import {Counter} from "./Counter";
 import userEvent from "@testing-library/user-event";
-import {ADD_COUNT} from "../modules/counter";
+import {ADD_COUNT} from "../../modules/counter";
 
 test(
     'should show a button with the text "Add"',

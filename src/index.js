@@ -8,6 +8,7 @@ import reducer from "./modules/counter";
 
 const store = createStore(reducer)
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <Provider store={store}>
     <App />
